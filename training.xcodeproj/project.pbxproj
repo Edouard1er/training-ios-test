@@ -13,6 +13,8 @@
 		8623DA2A2B1F5EEB002D503A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8623DA292B1F5EEB002D503A /* Preview Assets.xcassets */; };
 		8623DA312B1F602C002D503A /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA302B1F602C002D503A /* StateView.swift */; };
 		8623DA332B1F6144002D503A /* BindingIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA322B1F6144002D503A /* BindingIView.swift */; };
+		8623DA352B1F6317002D503A /* MyZstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA342B1F6317002D503A /* MyZstackView.swift */; };
+		8623DA372B1F6473002D503A /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA362B1F6473002D503A /* ConversationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8623DA292B1F5EEB002D503A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8623DA302B1F602C002D503A /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		8623DA322B1F6144002D503A /* BindingIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingIView.swift; sourceTree = "<group>"; };
+		8623DA342B1F6317002D503A /* MyZstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyZstackView.swift; sourceTree = "<group>"; };
+		8623DA362B1F6473002D503A /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				8623DA282B1F5EEB002D503A /* Preview Content */,
 				8623DA302B1F602C002D503A /* StateView.swift */,
 				8623DA322B1F6144002D503A /* BindingIView.swift */,
+				8623DA342B1F6317002D503A /* MyZstackView.swift */,
+				8623DA362B1F6473002D503A /* ConversationListView.swift */,
 			);
 			path = training;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 				8623DA312B1F602C002D503A /* StateView.swift in Sources */,
 				8623DA252B1F5EE9002D503A /* ContentView.swift in Sources */,
 				8623DA232B1F5EE9002D503A /* trainingApp.swift in Sources */,
+				8623DA352B1F6317002D503A /* MyZstackView.swift in Sources */,
+				8623DA372B1F6473002D503A /* ConversationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
