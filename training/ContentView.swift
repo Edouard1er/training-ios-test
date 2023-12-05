@@ -12,23 +12,35 @@ struct ContentView: View {
     @State private var isMyZstackViewPresented = false
 
     var body: some View {
-        VStack {
-            StateView().padding()
-            BindingIView().padding()
+        NavigationView{
+            VStack {
+                StateView().padding()
+                BindingIView().padding()
 
-            // Bouton pour naviguer vers MyZstackView
-            Button("Go to MyZstackView") {
-                isMyZstackViewPresented.toggle()
-            }
-            .sheet(isPresented: $isMyZstackViewPresented) {
-                MyZstackView()
+                // Bouton pour naviguer vers MyZstackView
+                Button("Go to MyZstackView") {
+                    isMyZstackViewPresented.toggle()
+                }
+                .sheet(isPresented: $isMyZstackViewPresented) {
+                    MyZstackView()
+                }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                // Bouton de navigation vers ConversationListView
+                NavigationLink(destination: ConversationListView()) {
+                    Text("Go to Conversations")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                    .cornerRadius(8)
+                    
+                }
             }
             .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(8)
         }
-        .padding()
+        
     }
 }
 

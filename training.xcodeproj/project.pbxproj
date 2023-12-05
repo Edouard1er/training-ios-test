@@ -15,6 +15,7 @@
 		8623DA332B1F6144002D503A /* BindingIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA322B1F6144002D503A /* BindingIView.swift */; };
 		8623DA352B1F6317002D503A /* MyZstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA342B1F6317002D503A /* MyZstackView.swift */; };
 		8623DA372B1F6473002D503A /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA362B1F6473002D503A /* ConversationListView.swift */; };
+		8623DA392B1F653A002D503A /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623DA382B1F653A002D503A /* ConversationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8623DA322B1F6144002D503A /* BindingIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingIView.swift; sourceTree = "<group>"; };
 		8623DA342B1F6317002D503A /* MyZstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyZstackView.swift; sourceTree = "<group>"; };
 		8623DA362B1F6473002D503A /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
+		8623DA382B1F653A002D503A /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				8623DA322B1F6144002D503A /* BindingIView.swift */,
 				8623DA342B1F6317002D503A /* MyZstackView.swift */,
 				8623DA362B1F6473002D503A /* ConversationListView.swift */,
+				8623DA382B1F653A002D503A /* ConversationView.swift */,
 			);
 			path = training;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8623DA392B1F653A002D503A /* ConversationView.swift in Sources */,
 				8623DA332B1F6144002D503A /* BindingIView.swift in Sources */,
 				8623DA312B1F602C002D503A /* StateView.swift in Sources */,
 				8623DA252B1F5EE9002D503A /* ContentView.swift in Sources */,
